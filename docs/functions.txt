@@ -1,0 +1,10 @@
+regisztráció: az alkalmazásba be lehet regisztrálni, név, emailcím és jelszó megadásával
+bejelentkezés: az alkalmazásba be lehet jelentkezni egy meglévő felhasználói fiókkal
+Logout: logged in user can log out from the application
+Create new blog post: in the app new blog post can be created and saved by logged in user
+View article: selecting a blog post from the feed by clicking it's title to show it's detailed view
+Editing blog post: ability to edit the existing blog posts
+Deleting blog post: ability to delete an existing blog post in the app
+Tagging a blog post: ability to tag a blog post, app is storing tag and post can be find by it's tag
+Tag Feed: app presents a tag feed, blog post can be fint by it's tag
+Paginataed blog post feed: ability to check the list of blog post on several pages
