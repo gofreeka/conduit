@@ -1,0 +1,13 @@
+##### CON-TC001, Registration-, I wouldn't automate it, the manual test run doesn't passed
+A001, CON-TC002, Log in, System integration test, API test, to check the functionality, reliability and security of the
+                 programming interfaces. Login is a high risk function.
+A002, CON-TC003, Log out, API test, Reliability issues, high risk, difficulty in connecting and getting a response from
+                 API.
+A003, CON-TC004, Create new blog post, Create Article - API test, POST API function - to check the functionality,
+                 reliability of the programming interfaces
+A004, CON-TC005, Article Detailed view - API test, ArticleViewer interface - To check the functionality, reliability of
+                 the programming interfaces
+A005, CON-TC006, Edit blog post, API test, ArticleViewer interface contains information about the Article
+A006, CON-TC007, Delete blog post, API Test, DELETE API function, Check if a function is deleting record from table and
+                 another is called to refresh the database.
+A007, CON-TC008, Registration+, API test, Multiple data set, high risk, POST API function
