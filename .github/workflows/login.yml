@@ -1,4 +1,4 @@
-name: registration
+name: login
 
 on:
   push:
