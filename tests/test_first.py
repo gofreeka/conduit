@@ -1,10 +1,14 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+from selenium.webdriver.chrome.options import Options
+import random, string
 
 options = webdriver.ChromeOptions()
-options.add_experimental_option("excludeSwitches", ["ignore-certificate-errors"])
-options.add_argument('--disable-gpu')
 options.add_argument('--headless')
-chrome_driver_path = "C:\Windows\chromedriver.exe"
+options.add_argument('--disable-gpu')
+
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
 import time
 
