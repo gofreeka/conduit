@@ -68,6 +68,7 @@ def test_registration():
 
     test_log_out()
 
+
 # SIGN IN - CON-TC002
 def test_sign_in():
     driver.get("http://localhost:1667/")
@@ -96,6 +97,7 @@ def test_sign_in():
 
     user_check()
     time.sleep(1)
+
 
 # NEW BLOG POST - CON-TC004
 def test_new_blogpost():
