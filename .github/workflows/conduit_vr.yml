@@ -20,7 +20,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest
         if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
 
     - name: Install Chrome
@@ -35,7 +34,7 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest --alluredir=allure-results
+        pytest
 
     - name: Collect docker logs
       uses: jwalton/gh-docker-logs@v1
