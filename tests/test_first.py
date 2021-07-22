@@ -1,9 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-# options = Options()
-# options.page_load_strategy = 'normal'  # Selenium WebDriver waits until the load event fire is returned.
-# driver = webdriver.Chrome(options=options)
+options = Options()
+options.set_headless(headless=True)
+driver = webdriver.Chrome(options=options, executable_path=r'C:\path\to\chromedriver.exe')
+driver.get("http://google.com/")
+print ("Headless Chrome Initialized")
+driver.quit()
 
 import time
 
