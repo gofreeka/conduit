@@ -1,20 +1,21 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 
-options = Options()
-options.set_headless(headless=True)
-driver = webdriver.Chrome(options=options, executable_path=r'C:\path\to\chromedriver.exe')
-driver.get("http://google.com/")
-print ("Headless Chrome Initialized")
-driver.quit()
+options = webdriver.ChromeOptions()
+options.add_experimental_option("excludeSwitches", ["ignore-certificate-errors"])
+options.add_argument('--disable-gpu')
+options.add_argument('--headless')
+chrome_driver_path = "C:\Windows\chromedriver.exe"
 
 import time
 
 from webdriver_manager.chrome import ChromeDriverManager
+
 # from webdriver_manager.firefox import GeckoDriverManager
 # from webdriver_manager.microsoft import IEDriverManager
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
+
+
 # driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 # driver = webdriver.Ie(IEDriverManager().install())
 
