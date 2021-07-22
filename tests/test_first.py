@@ -154,3 +154,6 @@ class TestConduitTestCases(object):
 
         bt_publish = driver.find_element_by_xpath("//button[normalize-space()='Publish Article']").click()
         time.sleep(4)
+
+
+driver.close()
