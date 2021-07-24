@@ -4,7 +4,7 @@ import time
 from selenium.webdriver.chrome.options import Options
 import random, string
 
-options = webdriver.ChromeOptions()
+options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
