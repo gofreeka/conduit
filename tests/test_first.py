@@ -1,5 +1,6 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+
 import time
 ###from selenium.webdriver.chrome.options import Options
     #options = webdriver.ChromeOptions()
@@ -24,14 +25,12 @@ def pytest_setup_selenium(driver_name):
     }
 ###
 
-import time
-
-from webdriver_manager.chrome import ChromeDriverManager
+###from webdriver_manager.chrome import ChromeDriverManager
 
 # from webdriver_manager.firefox import GeckoDriverManager
 # from webdriver_manager.microsoft import IEDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+###driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
 # driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
