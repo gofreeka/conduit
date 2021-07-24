@@ -1,26 +1,17 @@
-
+import pytest
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.support.ui import WebDriverWait
+import time
 from selenium.webdriver.chrome.options import Options
 
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
 
-def pytest_setup_selenium(driver_name):
-    options = Options()
-    options.headless = True
-    return {
-        'chrome_options': options,
-    }
-
-
-#options = Options()
-# options.page_load_strategy = 'normal'  # Selenium WebDriver waits until the load event fire is returned.
-#driver = webdriver.Chrome(options=options)
-
-import time
-
-from webdriver_manager.chrome import ChromeDriverManager
-
-driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get("http://localhost:1667/")
+# driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+driver.get("http://localhost:1667")
 
 
 # REGISTRATION - CON_TC008
