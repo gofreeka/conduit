@@ -20,6 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install flake8 pytest
         if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
 
     - name: Install Chrome
@@ -36,16 +37,16 @@ jobs:
       run: |
         pytest --alluredir=allure-results
 
-    - name: Collect docker logs
-      uses: jwalton/gh-docker-logs@v1
-      with:
-        dest: './logs'
+#    - name: Collect docker logs
+#      uses: jwalton/gh-docker-logs@v1
+#      with:
+#        dest: './logs'
 
-    - name: Archive execution artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: docker-logs
-        path: ./logs
+#    - name: Archive execution artifacts
+#      uses: actions/upload-artifact@v2
+#      with:
+#        name: docker-logs
+#        path: ./logs
 
     - name: Get Allure history
       uses: actions/checkout@v2
