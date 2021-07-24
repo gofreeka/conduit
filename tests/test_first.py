@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome import options
 from webdriver_manager.chrome import ChromeDriverManager
 
 import time
@@ -11,7 +12,7 @@ import time
 import random, string
 
 
-### driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
 ###
 from selenium.webdriver.chrome.options import Options
