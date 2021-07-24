@@ -1,6 +1,5 @@
+
 from selenium import webdriver
-# from selenium.webdriver.chrome import options
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
 
@@ -12,36 +11,15 @@ def pytest_setup_selenium(driver_name):
     }
 
 
-#driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+#options = Options()
+# options.page_load_strategy = 'normal'  # Selenium WebDriver waits until the load event fire is returned.
+#driver = webdriver.Chrome(options=options)
 
 import time
 
-#options = webdriver.ChromeOptions()
-
-options = webdriver.ChromeOptions()
-# options = Options()
-
-###options.add_argument('--headless')
-###options.add_argument('--disable-gpu')
-import random, string
-
-###
-
-
-
-
-###
-
-###from webdriver_manager.chrome import ChromeDriverManager
-
-# from webdriver_manager.firefox import GeckoDriverManager
-# from webdriver_manager.microsoft import IEDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
-
-
-# driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-# driver = webdriver.Ie(IEDriverManager().install())
 
 
 # REGISTRATION - CON_TC008
