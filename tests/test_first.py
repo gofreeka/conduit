@@ -1,20 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.chrome import options
+# from selenium.webdriver.chrome import options
 from webdriver_manager.chrome import ChromeDriverManager
-
-import time
-###from selenium.webdriver.chrome.options import Options
-    #options = webdriver.ChromeOptions()
-
-###options = Options()
-###options.add_argument('--headless')
-###options.add_argument('--disable-gpu')
-import random, string
-
-
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-
-###
 from selenium.webdriver.chrome.options import Options
 
 
@@ -24,6 +10,24 @@ def pytest_setup_selenium(driver_name):
     return {
         'chrome_options': options,
     }
+
+
+#driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+
+import time
+
+#options = webdriver.ChromeOptions()
+
+###options = Options()
+###options.add_argument('--headless')
+###options.add_argument('--disable-gpu')
+import random, string
+
+###
+
+
+
+
 ###
 
 ###from webdriver_manager.chrome import ChromeDriverManager
@@ -31,7 +35,7 @@ def pytest_setup_selenium(driver_name):
 # from webdriver_manager.firefox import GeckoDriverManager
 # from webdriver_manager.microsoft import IEDriverManager
 
-###driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
 # driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
