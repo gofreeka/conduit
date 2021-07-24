@@ -3,8 +3,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 from selenium.webdriver.chrome.options import Options
 import random, string
-
-options = Options()
+options = webdriver.ChromeOptions()
+# options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
@@ -112,6 +112,7 @@ def test_new_blogpost():
     }
 
     new_article = driver.find_element_by_xpath("//a[@href='#/editor']")
+    time.sleep(2)
     new_article.click()
     time.sleep(2)
 
