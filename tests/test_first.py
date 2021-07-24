@@ -1,14 +1,28 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from selenium.webdriver.chrome.options import Options
-import random, string
-#options = webdriver.ChromeOptions()
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')
+###from selenium.webdriver.chrome.options import Options
+    #options = webdriver.ChromeOptions()
 
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+###options = Options()
+###options.add_argument('--headless')
+###options.add_argument('--disable-gpu')
+import random, string
+
+
+### driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+
+###
+from selenium.webdriver.chrome.options import Options
+
+
+def pytest_setup_selenium(driver_name):
+    options = Options()
+    options.headless = True
+    return {
+        'chrome_options': options,
+    }
+###
 
 import time
 
