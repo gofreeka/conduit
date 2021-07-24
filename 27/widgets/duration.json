@@ -1,0 +1,31 @@
+[ {
+  "uid" : "a28fd8772d721163",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1627169901996,
+    "stop" : 1627169901998,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "29693046ceda14ff",
+  "name" : "test_sign_in",
+  "time" : {
+    "start" : 1627169902204,
+    "stop" : 1627169902206,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c3a108f51d066c",
+  "name" : "test_new_blogpost",
+  "time" : {
+    "start" : 1627169902270,
+    "stop" : 1627169903273,
+    "duration" : 1003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
