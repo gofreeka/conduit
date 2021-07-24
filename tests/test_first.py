@@ -18,7 +18,9 @@ import time
 
 #options = webdriver.ChromeOptions()
 
-###options = Options()
+options = webdriver.ChromeOptions()
+# options = Options()
+
 ###options.add_argument('--headless')
 ###options.add_argument('--disable-gpu')
 import random, string
