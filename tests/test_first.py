@@ -20,6 +20,7 @@ import time
 from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
+driver.get("http://localhost:1667/")
 
 
 # REGISTRATION - CON_TC008
