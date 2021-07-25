@@ -6,12 +6,25 @@ from selenium.webdriver.support.ui import WebDriverWait
 import time
 from selenium.webdriver.chrome.options import Options
 
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')
+#options = webdriver.ChromeOptions()
+#options = Options()
 
-# driver = webdriver.Chrome(ChromeDriverManager().install())
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+from selenium.webdriver.chrome.options import Options
+
+
+def pytest_setup_selenium(driver_name):
+    options = webdriver.ChromeOptions()
+    options.headless = True
+    return {
+        'chrome_options': options,
+    }
+
+
+#options.add_argument('--headless')
+#options.add_argument('--disable-gpu')
+
+driver = webdriver.Chrome(ChromeDriverManager().install())
+#driver = webdriver.ChromeOptions(ChromeDriverManager().install(), options=options)
 print("Current session is {}".format(driver.session_id))
 driver.quit()
 try:
@@ -22,7 +35,6 @@ except Exception as e:
 
 ###
 #driver = webdriver.Chrome(executable_path=r'C:\Utility\BrowserDrivers\chromedriver.exe')
-
 
 
 # REGISTRATION - CON_TC008
