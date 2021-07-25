@@ -6,18 +6,25 @@ from selenium.webdriver.support.ui import WebDriverWait
 import time
 from selenium.webdriver.chrome.options import Options
 
-options = Options()
+# options = Options()
+# options.add_argument('--headless')
+# options.add_argument('--disable-gpu')
+
+options = webdriver.ChromeOptions()
 options.add_argument('--headless')
-options.add_argument('--disable-gpu')
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+driver.get("http://localhost:1667")
 
 # driver = webdriver.Chrome(ChromeDriverManager().install())
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-print("Current session is {}".format(driver.session_id))
-driver.quit()
-try:
-    driver.get("http://localhost:1667")
-except Exception as e:
-    print(e.message)
+
+# driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+# print("Current session is {}".format(driver.session_id))
+# driver.quit()
+# try:
+#     driver.get("http://localhost:1667")
+# except Exception as e:
+#     print(e.message)
+#
 
 
 
