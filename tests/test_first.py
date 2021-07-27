@@ -1,4 +1,4 @@
-import pytest
+import selenium
 from selenium import webdriver
 from selenium.common.exceptions import InvalidSessionIdException
 from webdriver_manager.chrome import ChromeDriverManager
