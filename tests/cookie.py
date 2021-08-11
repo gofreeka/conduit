@@ -10,7 +10,7 @@ time.sleep(3)
 # Adatvedelmi nyilatkozat hasznalata
 
 
-def cookie():
+def test_cookie():
 
     def check_cookies():
         cookies = driver.get_cookies()
