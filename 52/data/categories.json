@@ -6,26 +6,26 @@
       "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
       "children" : [ {
         "name" : "test_sign_in",
-        "uid" : "7156fab7c531be05",
+        "uid" : "808e85fb1d04e286",
         "parentUid" : "04e0e10128006169cbbb0fa535941c37",
         "status" : "broken",
         "time" : {
-          "start" : 1628796228516,
-          "stop" : 1628796230522,
-          "duration" : 2006
+          "start" : 1628796934668,
+          "stop" : 1628796936676,
+          "duration" : 2008
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_user_check",
-        "uid" : "a1d53a50225887f4",
+        "uid" : "db5b092559a75f1f",
         "parentUid" : "04e0e10128006169cbbb0fa535941c37",
         "status" : "broken",
         "time" : {
-          "start" : 1628796230619,
-          "stop" : 1628796230622,
-          "duration" : 3
+          "start" : 1628796936767,
+          "stop" : 1628796936771,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
@@ -37,22 +37,22 @@
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert 'testuser1' == None\n +  where None = <bound method WebElement.get_attribute of <selenium.webdriver.remote.webelement.WebElement (session=\"ef3552789261dac0dfdc414f318f9673\", element=\"5d671e01-6264-45f2-8d39-e8e0c47669cc\")>>('value')\n +    where <bound method WebElement.get_attribute of <selenium.webdriver.remote.webelement.WebElement (session=\"ef3552789261dac0dfdc414f318f9673\", element=\"5d671e01-6264-45f2-8d39-e8e0c47669cc\")>> = <selenium.webdriver.remote.webelement.WebElement (session=\"ef3552789261dac0dfdc414f318f9673\", element=\"5d671e01-6264-45f2-8d39-e8e0c47669cc\")>.get_attribute",
+      "name" : "AssertionError: assert 'testuser1' == None\n +  where None = <bound method WebElement.get_attribute of <selenium.webdriver.remote.webelement.WebElement (session=\"fecf35dc2ff4103e4454e7a0d54c92b7\", element=\"6907d553-b186-4603-8292-9b19bfc3ec49\")>>('value')\n +    where <bound method WebElement.get_attribute of <selenium.webdriver.remote.webelement.WebElement (session=\"fecf35dc2ff4103e4454e7a0d54c92b7\", element=\"6907d553-b186-4603-8292-9b19bfc3ec49\")>> = <selenium.webdriver.remote.webelement.WebElement (session=\"fecf35dc2ff4103e4454e7a0d54c92b7\", element=\"6907d553-b186-4603-8292-9b19bfc3ec49\")>.get_attribute",
       "children" : [ {
         "name" : "test_003_log_out",
-        "uid" : "f7f3644cee1316d1",
-        "parentUid" : "b86bf7bb06fbeedd8b10fb6d7b697441",
+        "uid" : "97a8867ba69d72bb",
+        "parentUid" : "ba589654330c25b797238d6f107298c9",
         "status" : "failed",
         "time" : {
-          "start" : 1628796236247,
-          "stop" : 1628796236264,
-          "duration" : 17
+          "start" : 1628796942579,
+          "stop" : 1628796942598,
+          "duration" : 19
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b86bf7bb06fbeedd8b10fb6d7b697441"
+      "uid" : "ba589654330c25b797238d6f107298c9"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

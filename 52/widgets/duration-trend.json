@@ -3,6 +3,13 @@
   "reportUrl" : "https://gofreeka.github.io/conduit/52/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 46821
+  }
+}, {
+  "buildOrder" : 52,
+  "reportUrl" : "https://gofreeka.github.io/conduit/52/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 46602
   }
 }, {
@@ -122,12 +129,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 37909
-  }
-}, {
-  "buildOrder" : 33,
-  "reportUrl" : "https://gofreeka.github.io/conduit/33/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 38097
   }
 } ]
