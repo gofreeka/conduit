@@ -36,3 +36,4 @@ def test_cookie():
     decline.click()
     check_cookies()
 
+    driver.close()
