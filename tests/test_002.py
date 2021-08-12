@@ -14,12 +14,13 @@ test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
 test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
+# Bejelentkezes
+
 
 def test_sign_in():
 
     time.sleep(2)
 
-#    sign_in = driver.find_element_by_xpath("//a[contains(text(),\'Sign in\')]")
     sign_in = driver.find_element_by_xpath("//a[normalize-space()='Sign in']")
     sign_in.click()
 
@@ -38,6 +39,4 @@ def test_user_check():
     assert test_user_1[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
 
-# test_sign_in()
-# test_user_check()
 time.sleep(1)
