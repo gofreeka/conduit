@@ -1,0 +1,89 @@
+{
+  "uid" : "93e8cfa951226f00",
+  "name" : "test_cookie",
+  "fullName" : "tests.test_001#test_cookie",
+  "historyId" : "5d3c0e238878f0d2324e92f771087dc4",
+  "time" : {
+    "start" : 1628790291430,
+    "stop" : 1628790291912,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6893a80036c61531",
+      "name" : "stdout",
+      "source" : "6893a80036c61531.txt",
+      "type" : "text/plain",
+      "size" : 747
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-962"
+  }, {
+    "name" : "thread",
+    "value" : "3733-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a6af3b75a5ddd7e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/46//#testresult/a6af3b75a5ddd7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628790242785,
+          "stop" : 1628790243268,
+          "duration" : 483
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "93e8cfa951226f00.json",
+  "parameterValues" : [ ]
+}
