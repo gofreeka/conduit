@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[normalize-space()='Sign in']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_001_sign_in",
+        "uid" : "78bff43cc0253d0a",
+        "parentUid" : "6cdc59f4e1f8f0842379981bed296c3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628802583253,
+          "stop" : 1628802588288,
+          "duration" : 5035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_001_sign_in",
+        "uid" : "50ed3b8e301473ea",
+        "parentUid" : "6cdc59f4e1f8f0842379981bed296c3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628802588393,
+          "stop" : 1628802593407,
+          "duration" : 5014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6cdc59f4e1f8f0842379981bed296c3c"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='app']/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_002_user_check",
+        "uid" : "6c898e5b9a3da9f4",
+        "parentUid" : "b67ca54814b0cce6a988668ea8ad17d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628802593438,
+          "stop" : 1628802593452,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b67ca54814b0cce6a988668ea8ad17d4"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_003_log_out",
+        "uid" : "e40929d1eb97624c",
+        "parentUid" : "a6a7e3534a061798544d98ab6f5c2fbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628802593483,
+          "stop" : 1628802593496,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6a7e3534a061798544d98ab6f5c2fbb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
