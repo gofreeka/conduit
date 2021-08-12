@@ -19,7 +19,7 @@ test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 def test_001_sign_in():
 
-    time.sleep(2)
+    time.sleep(5)
 
     sign_in = driver.find_element_by_xpath("//a[normalize-space()='Sign in']")
     sign_in.click()
