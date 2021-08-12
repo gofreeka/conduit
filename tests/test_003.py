@@ -18,8 +18,8 @@ test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 
 def test_log_out():
-    username = driver.find_element_by_xpath("//div/nav/div/ul/li[4]/a").text
-    assert "testuser1" == username
+    username = driver.find_element_by_xpath("//div/nav/div/ul/li[4]/a")
+    assert "testuser1" == username.get_attribute("value")
 
     log_out_bt = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
     log_out_bt.click()
