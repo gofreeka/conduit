@@ -38,6 +38,6 @@ def test_user_check():
     assert test_user_1[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
 
-test_sign_in()
-test_user_check()
+# test_sign_in()
+# test_user_check()
 time.sleep(1)
