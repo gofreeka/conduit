@@ -41,4 +41,4 @@ def test_user_check():
 
 time.sleep(1)
 
-driver.close()
+# driver.close()
