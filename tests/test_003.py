@@ -17,7 +17,7 @@ test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 # Bejelentkezes
 
 
-def test_sign_in():
+def test_001_sign_in():
 
     time.sleep(2)
 
@@ -35,7 +35,7 @@ def test_sign_in():
     time.sleep(3)
 
 
-def test_user_check():
+def test_002_user_check():
     assert test_user_1[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
 
@@ -44,7 +44,7 @@ time.sleep(1)
 # LOGOUT
 
 
-def test_log_out():
+def test_003_log_out():
     username = driver.find_element_by_xpath("//div/nav/div/ul/li[4]/a")
     assert "testuser1" == username.get_attribute("value")
 
