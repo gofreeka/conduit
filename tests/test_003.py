@@ -1,7 +1,7 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from test_002 import test_sign_in
+from test_002 import test_001_sign_in
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -17,7 +17,7 @@ test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 # Bejelentkezes
 
-test_sign_in()
+test_001_sign_in()
 
 #
 # def test_001_sign_in():
