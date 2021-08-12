@@ -21,7 +21,7 @@ def test_001_sign_in():
 
     time.sleep(5)
 
-    sign_in = driver.find_element_by_xpath("//a[contains(text(),\'Sign in\')]")
+    sign_in = driver.find_element_by_xpath("//a[@href='#/login']")
     #sign_in = driver.find_element_by_xpath("//a[normalize-space()='Sign in']")
     sign_in.click()
 
