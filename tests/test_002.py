@@ -19,7 +19,8 @@ def test_sign_in():
 
     time.sleep(2)
 
-    sign_in = driver.find_element_by_xpath("//a[contains(text(),\'Sign in\')]")
+#    sign_in = driver.find_element_by_xpath("//a[contains(text(),\'Sign in\')]")
+    sign_in = driver.find_element_by_xpath("//a[normalize-space()='Sign in']")
     sign_in.click()
 
     email = driver.find_element_by_xpath("//input[@placeholder='Email']")
