@@ -1,0 +1,174 @@
+{
+  "uid" : "1abb958400330789",
+  "name" : "test_001_sign_in",
+  "fullName" : "tests.test_002#test_001_sign_in",
+  "historyId" : "e512625c3f51206ecab78729d383814a",
+  "time" : {
+    "start" : 1628858115677,
+    "stop" : 1628858123928,
+    "duration" : 8251
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_002"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-581"
+  }, {
+    "name" : "thread",
+    "value" : "3766-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 11,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "e6064016d7bac226",
+        "reportUrl" : "https://gofreeka.github.io/conduit/65//#testresult/e6064016d7bac226",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628857119305,
+          "stop" : 1628857124325,
+          "duration" : 5020
+        }
+      }, {
+        "uid" : "fbb4e23c0f2ee04e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/64//#testresult/fbb4e23c0f2ee04e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628854902865,
+          "stop" : 1628854907884,
+          "duration" : 5019
+        }
+      }, {
+        "uid" : "c416aee56d3ca25",
+        "reportUrl" : "https://gofreeka.github.io/conduit/63//#testresult/c416aee56d3ca25",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628854514839,
+          "stop" : 1628854519858,
+          "duration" : 5019
+        }
+      }, {
+        "uid" : "e2139716d873488b",
+        "reportUrl" : "https://gofreeka.github.io/conduit/62//#testresult/e2139716d873488b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628853928221,
+          "stop" : 1628853933238,
+          "duration" : 5017
+        }
+      }, {
+        "uid" : "b3f1762dbea4ec2e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/60//#testresult/b3f1762dbea4ec2e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628851675771,
+          "stop" : 1628851680789,
+          "duration" : 5018
+        }
+      }, {
+        "uid" : "7785d3f86534f65c",
+        "reportUrl" : "https://gofreeka.github.io/conduit/59//#testresult/7785d3f86534f65c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628809400650,
+          "stop" : 1628809405666,
+          "duration" : 5016
+        }
+      }, {
+        "uid" : "57cd58eb1cb39484",
+        "reportUrl" : "https://gofreeka.github.io/conduit/58//#testresult/57cd58eb1cb39484",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628807812494,
+          "stop" : 1628807817512,
+          "duration" : 5018
+        }
+      }, {
+        "uid" : "7072879c31d40a9d",
+        "reportUrl" : "https://gofreeka.github.io/conduit/57//#testresult/7072879c31d40a9d",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(text(),'Sign in')]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628806448898,
+          "stop" : 1628806453916,
+          "duration" : 5018
+        }
+      }, {
+        "uid" : "e37c8e8890796368",
+        "reportUrl" : "https://gofreeka.github.io/conduit/56//#testresult/e37c8e8890796368",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"// a[contains(text(),'Sign in')]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628806078165,
+          "stop" : 1628806083186,
+          "duration" : 5021
+        }
+      }, {
+        "uid" : "78bff43cc0253d0a",
+        "reportUrl" : "https://gofreeka.github.io/conduit/55//#testresult/78bff43cc0253d0a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[normalize-space()='Sign in']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628802583253,
+          "stop" : 1628802588288,
+          "duration" : 5035
+        }
+      }, {
+        "uid" : "cd06460bab38b249",
+        "reportUrl" : "https://gofreeka.github.io/conduit/54//#testresult/cd06460bab38b249",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[normalize-space()='Sign in']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628801004048,
+          "stop" : 1628801006065,
+          "duration" : 2017
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1abb958400330789.json",
+  "parameterValues" : [ ]
+}
