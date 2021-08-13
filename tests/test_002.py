@@ -1,6 +1,8 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -19,8 +21,9 @@ test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 def test_001_sign_in():
 
-    time.sleep(5)
+   # time.sleep(5)
 
+    WebDriverWait(driver, timeout=3).until(driver.find_element_by_xpath("//a[@href='#/login']"))
     sign_in = driver.find_element_by_xpath("//a[@href='#/login']")
     #sign_in = driver.find_element_by_xpath("//a[normalize-space()='Sign in']")
     sign_in.click()
