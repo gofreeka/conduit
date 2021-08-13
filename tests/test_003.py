@@ -15,18 +15,18 @@ driver.get(URL)
 # test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 # test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
-# Bejelentkezes
-
-
-def test_001_login():
-    test_001_sign_in()
-
+#
+#
+# def test_001_login():
+#
 
 # NEW BLOG POST - CON-TC004
 
 
 def test_002_new_blog_post():
 
+    # Bejelentkezes
+    test_001_sign_in()
     blog_post_data = {
         "data_article_title": "My 1st post",
         "data_article_about": "About the beginning",
