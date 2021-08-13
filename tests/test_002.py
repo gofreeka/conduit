@@ -40,6 +40,16 @@ def test_002_user_check():
     assert test_user_1[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
 
+# LOGOUT
+
+
+def test_003_log_out():
+    username = driver.find_element_by_xpath("//div/nav/div/ul/li[4]/a")
+    assert "#/@testuser1/" == username.get_property("href")
+
+    log_out_bt = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
+    log_out_bt.click()
+
 # time.sleep(1)
 
 # driver.close()
