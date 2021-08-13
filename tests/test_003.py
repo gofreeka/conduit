@@ -57,6 +57,8 @@ def test_002_new_blog_post():
     time.sleep(4)
 
 
+driver.quit()
+
 # # LOGOUT
 #
 #

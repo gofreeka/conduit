@@ -35,4 +35,4 @@ def test_sign_in():
     time.sleep(3)
 
 
-driver.close()
+driver.quit()

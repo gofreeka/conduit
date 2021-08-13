@@ -51,4 +51,4 @@ def test_003_log_out():
     log_out_bt.click()
 
 
-driver.close()
+driver.quit()
