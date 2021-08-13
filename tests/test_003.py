@@ -1,7 +1,7 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-# from sign_in_test import test_sign_in
+from sign_in_test import test_sign_in
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -21,7 +21,7 @@ driver.get(URL)
 
 
 # def test_001_login():
-#     test_sign_in()
+test_sign_in()
 
 
 # NEW BLOG POST - CON-TC004
