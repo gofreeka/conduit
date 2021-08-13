@@ -1,0 +1,155 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_001",
+      "children" : [ {
+        "name" : "test_002_cookie",
+        "uid" : "c2ddd05846df0d71",
+        "parentUid" : "6625099f331f15962c41d906475c8ba7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861169865,
+          "stop" : 1628861170287,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_002_sign_in",
+        "uid" : "2626257bfba53caa",
+        "parentUid" : "6625099f331f15962c41d906475c8ba7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861170289,
+          "stop" : 1628861178516,
+          "duration" : 8227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6625099f331f15962c41d906475c8ba7"
+    }, {
+      "name" : "test_002",
+      "children" : [ {
+        "name" : "test_001_sign_in",
+        "uid" : "dc95b8d7ff20780c",
+        "parentUid" : "99dab49c09fb97fbee0e864a696afacf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861178518,
+          "stop" : 1628861186778,
+          "duration" : 8260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_002_user_check",
+        "uid" : "d99855949b269abf",
+        "parentUid" : "99dab49c09fb97fbee0e864a696afacf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861186780,
+          "stop" : 1628861186803,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99dab49c09fb97fbee0e864a696afacf"
+    }, {
+      "name" : "test_003",
+      "children" : [ {
+        "name" : "test_002_sign_in",
+        "uid" : "3ff996084083acb3",
+        "parentUid" : "24f92ea0ea0f8368128d01f3482cf55e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628861186804,
+          "stop" : 1628861191818,
+          "duration" : 5014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_002_user_check",
+        "uid" : "c18f19e18583e8f2",
+        "parentUid" : "24f92ea0ea0f8368128d01f3482cf55e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628861191899,
+          "stop" : 1628861191913,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_003_log_out",
+        "uid" : "35630bf62b34e27e",
+        "parentUid" : "24f92ea0ea0f8368128d01f3482cf55e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628861191943,
+          "stop" : 1628861191956,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24f92ea0ea0f8368128d01f3482cf55e"
+    }, {
+      "name" : "test_first",
+      "children" : [ {
+        "name" : "test_registration",
+        "uid" : "30818d92024a82d3",
+        "parentUid" : "7dac16d999a75e7e0858e16c687a591e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861191986,
+          "stop" : 1628861207656,
+          "duration" : 15670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sign_in",
+        "uid" : "81927a05c71f2f4b",
+        "parentUid" : "7dac16d999a75e7e0858e16c687a591e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861207658,
+          "stop" : 1628861214111,
+          "duration" : 6453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_new_blogpost",
+        "uid" : "55f10eb3ba572eff",
+        "parentUid" : "7dac16d999a75e7e0858e16c687a591e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628861214113,
+          "stop" : 1628861229943,
+          "duration" : 15830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7dac16d999a75e7e0858e16c687a591e"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}
