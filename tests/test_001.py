@@ -11,7 +11,7 @@ driver.get(URL)
 # Adatvedelmi nyilatkozat hasznalata
 
 
-def test_cookie():
+def test_002_cookie():
 
     def check_cookies():
         cookies = driver.get_cookies()
@@ -47,7 +47,7 @@ test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 
-def test_001_sign_in():
+def test_002_sign_in():
 
     time.sleep(5)
 
