@@ -1,7 +1,7 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from test_002 import test_001_sign_in
+from sign_in_test import test_sign_in
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -9,24 +9,25 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 URL = 'http://localhost:1667/'
 driver.get(URL)
 
+
 # test_user_1 = ["testuser1", "testuser1@example.com", "Abcd123$"]
 # test_user_2 = ["testuser2", "testuser2@example.com", "Abcd123$"]
 # test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
 # test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 # test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
-#
-#
-# def test_001_login():
-#
+
+# Bejelentkezes
+
+
+def test_001_login():
+    test_sign_in()
+
 
 # NEW BLOG POST - CON-TC004
 
 
-def test_001_new_blog_post():
-
-    # Bejelentkezes
-    test_001_sign_in()
+def test_002_new_blog_post():
     blog_post_data = {
         "data_article_title": "My 1st post",
         "data_article_about": "About the beginning",
@@ -54,8 +55,6 @@ def test_001_new_blog_post():
     bt_publish = driver.find_element_by_xpath("//button[normalize-space()='Publish Article']")
     bt_publish.click()
     time.sleep(4)
-
-time.sleep(1)
 
 
 # LOGOUT
