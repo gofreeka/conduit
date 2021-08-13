@@ -15,9 +15,9 @@ test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
 test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
+
 # Bejelentkezes
 
-test_001_sign_in()
 
 #
 # def test_001_sign_in():
@@ -39,10 +39,13 @@ test_001_sign_in()
 
 
 def test_002_user_check():
+    test_001_sign_in()
+
     assert test_user_1[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
 
 time.sleep(1)
+
 
 # LOGOUT
 
