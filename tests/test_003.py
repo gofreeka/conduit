@@ -23,7 +23,7 @@ driver.get(URL)
 # NEW BLOG POST - CON-TC004
 
 
-def test_002_new_blog_post():
+def test_001_new_blog_post():
 
     # Bejelentkezes
     test_001_sign_in()
