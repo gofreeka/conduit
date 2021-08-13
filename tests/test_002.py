@@ -10,15 +10,14 @@ driver.get(URL)
 
 
 # Bejelentkezes
+test_user_1 = ["testuser1", "testuser1@example.com", "Abcd123$"]
+test_user_2 = ["testuser2", "testuser2@example.com", "Abcd123$"]
+test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
+test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
+test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 
 def test_001_sign_in():
-
-    test_user_1 = ["testuser1", "testuser1@example.com", "Abcd123$"]
-    test_user_2 = ["testuser2", "testuser2@example.com", "Abcd123$"]
-    test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
-    test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
-    test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
     time.sleep(5)
 
