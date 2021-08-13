@@ -50,6 +50,5 @@ def test_003_log_out():
     log_out_bt = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
     log_out_bt.click()
 
-# time.sleep(1)
 
-# driver.close()
+driver.close()

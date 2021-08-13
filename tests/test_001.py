@@ -64,3 +64,6 @@ def test_002_sign_in():
     bt_sign_in = driver.find_element_by_xpath("//button[normalize-space()='Sign in']")
     bt_sign_in.click()
     time.sleep(3)
+
+
+driver.close()
