@@ -68,7 +68,7 @@ def test_002_new_blog_post():
         tag.clear()
         time.sleep(1)
 
-    with open('./test_data_blogpost.csv', encoding = 'utf-8') as csvfile:
+    with open('./test_data_blogpost.csv', encoding='utf-8') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',')
         next(csvreader)
 
