@@ -18,7 +18,6 @@ test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 
-@pytest.fixture
 def test_sign_in():
 
     time.sleep(5)
