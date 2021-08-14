@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
+import csv
 # from sign_in_test import test_sign_in
 
 options = webdriver.ChromeOptions()
@@ -39,45 +40,53 @@ def test_001_login():
 
 
 def test_002_new_blog_post():
-    blog_post_data = {
-        "data_article_title": "My 1st post",
-        "data_article_about": "About the beginning",
-        "data_article_markdown": "There was nothing.",
-        "data_tag": "1st"
-    }
 
-    new_article = driver.find_element_by_xpath("//a[@href='#/editor']")
     time.sleep(2)
+    new_article = driver.find_element_by_xpath("//a[@href='#/editor']")
+    time.sleep(1)
     new_article.click()
     time.sleep(2)
 
     article_title = driver.find_element_by_xpath("//input[@placeholder='Article Title']")
-    article_title.send_keys(blog_post_data.get("data_article_title"))
-
     article_about = driver.find_element_by_xpath("//input[contains(@placeholder, 'this article about?')]")
-    article_about.send_keys(blog_post_data.get("data_article_about"))
-
     article_markdown = driver.find_element_by_xpath("//textarea[contains(@placeholder, 'markdown')]")
-    article_markdown.send_keys(blog_post_data.get("data_article_markdown"))
-
     tag = driver.find_element_by_xpath("//input[@placeholder='Enter tags']")
-    tag.send_keys(blog_post_data.get("data_tag"))
 
     bt_publish = driver.find_element_by_xpath("//button[normalize-space()='Publish Article']")
-    bt_publish.click()
-    time.sleep(4)
 
+    def find_and_clear_by_xpath():
+        article_title.click()
+        article_title.clear()
+        time.sleep(1)
+        article_about.click()
+        article_about.clear()
+        time.sleep(1)
+        article_markdown.click()
+        article_markdown.clear()
+        time.sleep(1)
+        tag.click()
+        tag.clear()
+        time.sleep(1)
 
-# # LOGOUT
-#
-#
-# def test_003_log_out():
-#     username = driver.find_element_by_xpath("//div/nav/div/ul/li[4]/a")
-#     assert "#/@testuser2/" == username.get_property("href")
-#
-#     log_out_bt = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
-#     log_out_bt.click()
-#
-#     # if test_user_2[0] in driver.current_url:
-#     #     log_out = driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[5]/a").click()
-#     time.sleep(2)
+    with open('test_data_blogpost.csv') as csvfile:
+        csvreader = csv.reader(csvfile, delimiter=',')
+        next(csvreader)
+
+        for row in csvreader:
+            print(row)
+            find_and_clear_by_xpath()
+            article_title.send_keys(row[0])
+            time.sleep(1)
+            article_about.send_keys(row[1])
+            time.sleep(1)
+            article_markdown.send_keys(row[2])
+            time.sleep(1)
+            tag.send_keys(row[3])
+            time.sleep(3)
+
+            bt_publish.click()
+            time.sleep(5)
+            new_article.click()
+            time.sleep(3)
+            find_and_clear_by_xpath()
+            time.sleep(3)
