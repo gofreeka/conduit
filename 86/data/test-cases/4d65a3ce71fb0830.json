@@ -1,0 +1,84 @@
+{
+  "uid" : "4d65a3ce71fb0830",
+  "name" : "test_001_login",
+  "fullName" : "tests.test_003#test_001_login",
+  "historyId" : "bb6275a2616b312306bb07ad6d7a0014",
+  "time" : {
+    "start" : 1628936557270,
+    "stop" : 1628936560517,
+    "duration" : 3247
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_003"
+  }, {
+    "name" : "host",
+    "value" : "fv-az36-878"
+  }, {
+    "name" : "thread",
+    "value" : "3731-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_003"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "476f5d96dcd92cff",
+        "reportUrl" : "https://gofreeka.github.io/conduit/76//#testresult/476f5d96dcd92cff",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628875981970,
+          "stop" : 1628875986983,
+          "duration" : 5013
+        }
+      }, {
+        "uid" : "59fd35975bc42536",
+        "reportUrl" : "https://gofreeka.github.io/conduit/72//#testresult/59fd35975bc42536",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628868502124,
+          "stop" : 1628868507142,
+          "duration" : 5018
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4d65a3ce71fb0830.json",
+  "parameterValues" : [ ]
+}
