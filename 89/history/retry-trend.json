@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 89,
+  "reportUrl" : "https://gofreeka.github.io/conduit/89/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 8,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 88,
   "reportUrl" : "https://gofreeka.github.io/conduit/88/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 71,
   "reportUrl" : "https://gofreeka.github.io/conduit/71/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 11,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 70,
-  "reportUrl" : "https://gofreeka.github.io/conduit/70/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 11,
