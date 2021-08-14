@@ -1,6 +1,0 @@
-{'domain': 'localhost', 'expiry': 1628948217, 'httpOnly': False, 'name': 'drash_sess', 'path': '/', 'secure': False, 'value': '$2a$10$SwU7xrHQb7Trookfkg/dT.Dx7JPgTWqo5Js7ZyIiRLj8Mr55eiV2W|::|$2a$10$IYQl09qz.ERfurJn3R8cl.QXXmheqOjywvDaLzxDGLqlszrxoum1i'}
-{'domain': 'localhost', 'httpOnly': False, 'name': 'vue-cookie-accept-decline-cookie-policy-panel', 'path': '/', 'secure': False, 'value': 'accept'}
-{'domain': 'localhost', 'expiry': 1628948222, 'httpOnly': False, 'name': 'drash_sess', 'path': '/', 'secure': False, 'value': '$2a$10$SwU7xrHQb7Trookfkg/dT.Dx7JPgTWqo5Js7ZyIiRLj8Mr55eiV2W|::|$2a$10$IYQl09qz.ERfurJn3R8cl.QXXmheqOjywvDaLzxDGLqlszrxoum1i'}
-{'domain': 'localhost', 'httpOnly': False, 'name': 'drash_sess', 'path': '/', 'secure': False, 'value': 'null'}
-{'domain': 'localhost', 'httpOnly': False, 'name': 'vue-cookie-accept-decline-cookie-policy-panel', 'path': '/', 'secure': False, 'value': 'decline'}
-{'domain': 'localhost', 'httpOnly': False, 'name': 'drash_sess', 'path': '/', 'secure': False, 'value': 'null'}
