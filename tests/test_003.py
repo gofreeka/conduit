@@ -1,7 +1,8 @@
+import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from sign_in_test import test_sign_in
+# from sign_in_test import test_sign_in
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -26,7 +27,8 @@ driver.get(URL)
 # NEW BLOG POST - CON-TC004
 
 
-def test_002_new_blog_post():
+@pytest.fixture
+def test_002_new_blog_post(test_sign_in):
     blog_post_data = {
         "data_article_title": "My 1st post",
         "data_article_about": "About the beginning",
