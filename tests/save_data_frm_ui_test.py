@@ -75,5 +75,3 @@ def test_003_save_data():
     with open('tests/saved_data.csv', 'r', encoding='utf-8') as csv_file:
         reader = csv.reader(csv_file)
         lines = len(list(reader))
-
-    assert article_nbr == (lines/2)
