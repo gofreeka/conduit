@@ -39,7 +39,7 @@ def test_registration():
     time.sleep(3)
 
     def user_check():
-        assert test_data_registration[1] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
+        assert test_data_registration[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
     user_check()
     time.sleep(3)
