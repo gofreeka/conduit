@@ -52,7 +52,6 @@ def test_002_sign_in():
     time.sleep(5)
 
     sign_in = driver.find_element_by_xpath("//a[@href='#/login']")
-    #sign_in = driver.find_element_by_xpath("//a[normalize-space()='Sign in']")
     sign_in.click()
 
     email = driver.find_element_by_xpath("//input[@placeholder='Email']")
