@@ -1,0 +1,73 @@
+{
+  "uid" : "f07b99dd600f561e",
+  "name" : "test_005_delete_article",
+  "fullName" : "tests.test_delete_article#test_005_delete_article",
+  "historyId" : "8a0c4b0df5d09fdbf06f04353c9e452b",
+  "time" : {
+    "start" : 1629241358541,
+    "stop" : 1629241370701,
+    "duration" : 12160
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_article"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-581"
+  }, {
+    "name" : "thread",
+    "value" : "3794-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_delete_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ec93e54f80e17b0",
+        "reportUrl" : "https://gofreeka.github.io/conduit/100//#testresult/ec93e54f80e17b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629201048291,
+          "stop" : 1629201060511,
+          "duration" : 12220
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f07b99dd600f561e.json",
+  "parameterValues" : [ ]
+}
