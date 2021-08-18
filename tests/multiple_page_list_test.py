@@ -8,16 +8,14 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 URL = 'http://localhost:1667/'
 driver.get(URL)
 
-
-# Bejelentkezes
 test_user_1 = ["testuser1", "testuser1@example.com", "Abcd123$"]
 test_user_2 = ["testuser2", "testuser2@example.com", "Abcd123$"]
 test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
 test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
-
-# SIGN IN - CON-TC002
+global nbr_of_page_link
+global pnr_step
 
 
 def test_001_sign_in():
@@ -46,8 +44,9 @@ def test_003_user_page():
     time.sleep(2)
 
 
-def test_005_pages():
-
+def test_004_pages():
+    global nbr_of_page_link
+    global pnr_step
     pages = driver.find_elements_by_xpath('//div/nav/ul/li')
     page_link = driver.find_elements_by_xpath('//div/nav/ul/li/a')
     pages_nbr = len(pages)
@@ -57,6 +56,15 @@ def test_005_pages():
         article_title = driver.find_elements_by_xpath("//div/div[2]/div/div/div[2]/div/div/div/a/h1")
         article_nbr = len(article_title)
         pnr.click()
+        print(pnr.text)
+        pnr_step = int(pnr.text)
         print(article_nbr)
 
-    time.sleep(4)
+
+def test_005_check_page_numbers():
+    print(nbr_of_page_link)
+    print(pnr_step)
+    assert nbr_of_page_link == pnr_step
+
+
+time.sleep(4)
