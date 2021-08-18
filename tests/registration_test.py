@@ -8,10 +8,8 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 URL = 'http://localhost:1667/'
 driver.get(URL)
 
-# REGISTRATION - CON_TC008
 
-
-def test_registration():
+def test_001_registration():
 
     test_data_registration = ["RegUser1", "reguser1@example.com", "Abcd123$"]
 
