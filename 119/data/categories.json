@@ -6,16 +6,16 @@
       "name" : "AssertionError: assert 11 != 11",
       "children" : [ {
         "name" : "test_004_user_page_after",
-        "uid" : "8379fbcff87eed8e",
+        "uid" : "5b3cf1376538f235",
         "parentUid" : "380ebd439c8c9cabb152fa98785213b6",
         "status" : "failed",
         "time" : {
-          "start" : 1629304530612,
-          "stop" : 1629304532680,
-          "duration" : 2068
+          "start" : 1629305397437,
+          "stop" : 1629305399508,
+          "duration" : 2071
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "380ebd439c8c9cabb152fa98785213b6"

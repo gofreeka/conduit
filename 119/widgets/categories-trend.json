@@ -6,6 +6,13 @@
     "Product defects" : 1
   }
 }, {
+  "buildOrder" : 119,
+  "reportUrl" : "https://gofreeka.github.io/conduit/119/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
   "buildOrder" : 118,
   "reportUrl" : "https://gofreeka.github.io/conduit/118/",
   "reportName" : "Allure Report with history",
@@ -119,11 +126,6 @@
 }, {
   "buildOrder" : 101,
   "reportUrl" : "https://gofreeka.github.io/conduit/101/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 100,
-  "reportUrl" : "https://gofreeka.github.io/conduit/100/",
   "reportName" : "Allure Report with history",
   "data" : { }
 } ]
