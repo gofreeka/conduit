@@ -1,0 +1,117 @@
+{
+  "uid" : "a24c91335e8571ca",
+  "name" : "test_005_check_page_numbers",
+  "fullName" : "tests.multiple_page_list_test#test_005_check_page_numbers",
+  "historyId" : "7715c1eb8ca16bed14a7d7dc5fc05044",
+  "time" : {
+    "start" : 1629294897382,
+    "stop" : 1629294897383,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'pnr_step' is not defined",
+  "statusTrace" : "def test_005_check_page_numbers():\n        global nbr_of_page_link\n        global pnr_step\n        print(nbr_of_page_link)\n>       print(pnr_step)\nE       NameError: name 'pnr_step' is not defined\n\ntests/multiple_page_list_test.py:68: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'pnr_step' is not defined",
+    "statusTrace" : "def test_005_check_page_numbers():\n        global nbr_of_page_link\n        global pnr_step\n        print(nbr_of_page_link)\n>       print(pnr_step)\nE       NameError: name 'pnr_step' is not defined\n\ntests/multiple_page_list_test.py:68: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "38f97a3ce2b0c97e",
+      "name" : "stdout",
+      "source" : "38f97a3ce2b0c97e.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "multiple_page_list_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-942"
+  }, {
+    "name" : "thread",
+    "value" : "3724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.multiple_page_list_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "44e364181a3dc830",
+        "reportUrl" : "https://gofreeka.github.io/conduit/110//#testresult/44e364181a3dc830",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294017144,
+          "stop" : 1629294017144,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "45328577f3469e65",
+        "reportUrl" : "https://gofreeka.github.io/conduit/109//#testresult/45328577f3469e65",
+        "status" : "broken",
+        "statusDetails" : "NameError: name 'pnr_step' is not defined",
+        "time" : {
+          "start" : 1629293017912,
+          "stop" : 1629293017912,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5b0bdf11d527d0fa",
+        "reportUrl" : "https://gofreeka.github.io/conduit/108//#testresult/5b0bdf11d527d0fa",
+        "status" : "broken",
+        "statusDetails" : "NameError: name 'nbr_of_page_link' is not defined",
+        "time" : {
+          "start" : 1629291944745,
+          "stop" : 1629291944745,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a24c91335e8571ca.json",
+  "parameterValues" : [ ]
+}
