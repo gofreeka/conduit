@@ -8,8 +8,6 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 URL = 'http://localhost:1667/'
 driver.get(URL)
 
-
-# Bejelentkezes
 test_user_1 = ["testuser1", "testuser1@example.com", "Abcd123$"]
 test_user_2 = ["testuser2", "testuser2@example.com", "Abcd123$"]
 test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
@@ -35,14 +33,8 @@ def test_001_sign_in():
     time.sleep(3)
 
 
-# User_check
-
-
 def test_002_user_check():
     assert test_user_3[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
-
-
-# Modify Existing Data
 
 
 def test_003_mod_data():
@@ -77,7 +69,7 @@ def test_003_mod_data():
     # Find button
     update_settings_btn = driver.find_element_by_xpath("//form/fieldset/button[normalize-space()='Update Settings']")
 
-    # Click Update Settings button and accept OK button
+    # Click Update Settings button and click OK button
     def update_bio_settings():
         update_settings_btn.click()
         time.sleep(2)
