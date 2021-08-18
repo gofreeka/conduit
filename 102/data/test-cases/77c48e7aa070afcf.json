@@ -1,0 +1,88 @@
+{
+  "uid" : "77c48e7aa070afcf",
+  "name" : "test_005_delete_article",
+  "fullName" : "tests.test_delete_article#test_005_delete_article",
+  "historyId" : "8a0c4b0df5d09fdbf06f04353c9e452b",
+  "time" : {
+    "start" : 1629252072086,
+    "stop" : 1629252084314,
+    "duration" : 12228
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 21 == (5 + 1)\n +  where 21 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"c9df4164-4ca1-...belement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"0f984569-ca7d-49a7-955a-ff6c898e0fa7\")>, ...])\n +  and   5 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"8242f639-e751-...te.webelement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"e662fd47-71fa-45c1-9a41-de87421bab3b\")>])",
+  "statusTrace" : "def test_005_delete_article():\n        title_list = driver.find_elements_by_xpath(\"//div/div[2]/div/div/div[2]/div/div/div/a/h1\")\n        time.sleep(1)\n        last_item = title_list[-1]\n        last_item.click()\n        time.sleep(3)\n    \n        # Find Delete Article button\n        delete_btn = driver.find_element_by_xpath(\"//div/div[1]/div/div/span/button\")\n        time.sleep(3)\n        delete_btn.click()\n        time.sleep(3)\n    \n        test_004_user_page()\n        title_list_after = driver.find_elements_by_xpath(\"//div/div[2]/div/div/div[2]/div/div/div/a/h1\")\n    \n        # assert not title_list_after == title_list\n>       assert len(title_list) == len(title_list_after)+1\nE       assert 21 == (5 + 1)\nE        +  where 21 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"c9df4164-4ca1-...belement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"0f984569-ca7d-49a7-955a-ff6c898e0fa7\")>, ...])\nE        +  and   5 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"8242f639-e751-...te.webelement.WebElement (session=\"647e330d63272d5b5fee3ea75bb9fc55\", element=\"e662fd47-71fa-45c1-9a41-de87421bab3b\")>])\n\ntests/test_delete_article.py:97: AssertionError",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_article"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-944"
+  }, {
+    "name" : "thread",
+    "value" : "3830-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_delete_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f07b99dd600f561e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/101//#testresult/f07b99dd600f561e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629241358541,
+          "stop" : 1629241370701,
+          "duration" : 12160
+        }
+      }, {
+        "uid" : "ec93e54f80e17b0",
+        "reportUrl" : "https://gofreeka.github.io/conduit/100//#testresult/ec93e54f80e17b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629201048291,
+          "stop" : 1629201060511,
+          "duration" : 12220
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77c48e7aa070afcf.json",
+  "parameterValues" : [ ]
+}
