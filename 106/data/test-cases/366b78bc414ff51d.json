@@ -1,0 +1,73 @@
+{
+  "uid" : "366b78bc414ff51d",
+  "name" : "test_001_registration",
+  "fullName" : "tests.registration_test#test_001_registration",
+  "historyId" : "646dda3b10032f2be26085a75c737618",
+  "time" : {
+    "start" : 1629288793747,
+    "stop" : 1629288805179,
+    "duration" : 11432
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "registration_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-430"
+  }, {
+    "name" : "thread",
+    "value" : "3846-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.registration_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "827cf130b2d51121",
+        "reportUrl" : "https://gofreeka.github.io/conduit/105//#testresult/827cf130b2d51121",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629287939441,
+          "stop" : 1629287950921,
+          "duration" : 11480
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "366b78bc414ff51d.json",
+  "parameterValues" : [ ]
+}

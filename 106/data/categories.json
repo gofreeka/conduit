@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 12 == (1 + 1)\n +  where 12 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"e833fd866c456353301253a6bb706d8a\", element=\"43ff79f9-2739-...belement.WebElement (session=\"e833fd866c456353301253a6bb706d8a\", element=\"ad1c7467-5cab-4502-951d-0ceb5eb67626\")>, ...])\n +  and   1 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"e833fd866c456353301253a6bb706d8a\", element=\"5952f8ea-c938-433c-87f2-a47457b4ea6e\")>])",
+      "children" : [ {
+        "name" : "test_005_delete_article",
+        "uid" : "9d60985b6dd647d6",
+        "parentUid" : "3c26672d6d68e294aa230a85ffb5369e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629288750158,
+          "stop" : 1629288762341,
+          "duration" : 12183
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c26672d6d68e294aa230a85ffb5369e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
