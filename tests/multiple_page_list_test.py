@@ -62,12 +62,12 @@ def test_004_pages():
         print(article_nbr)
 
 
-def test_005_check_page_numbers():
-    global nbr_of_page_link
-    global pnr_step
-    print(nbr_of_page_link)
-    print(pnr_step)
-    assert nbr_of_page_link == int(pnr_step)
+# def test_005_check_page_numbers():
+#     global nbr_of_page_link
+#     global pnr_step
+#     print(nbr_of_page_link)
+#     print(pnr_step)
+#     assert nbr_of_page_link == int(pnr_step)
 
 
 time.sleep(4)
