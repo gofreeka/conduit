@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://gofreeka.github.io/conduit",
+  "buildOrder" : 105,
+  "buildName" : "GitHub Actions Run #1142998311",
+  "buildUrl" : "https://github.com/gofreeka/conduit/actions/runs/1142998311",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://gofreeka.github.io/conduit/105/"
+} ]
