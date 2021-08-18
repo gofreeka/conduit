@@ -17,9 +17,6 @@ test_user_4 = ["testuser4", "testuser4@example.com", "Abcd123$"]
 test_user_5 = ["testuser5", "testuser5@example.com", "Abcd123$"]
 
 
-# SIGN IN - CON-TC002
-
-
 def test_001_sign_in():
     sign_in = driver.find_element_by_xpath("//a[@href='#/login']")
     sign_in.click()
@@ -27,19 +24,16 @@ def test_001_sign_in():
     email = driver.find_element_by_xpath("//input[@placeholder='Email']")
     password = driver.find_element_by_xpath("//input[@placeholder='Password']")
 
-    email.send_keys(test_user_1[1])
-    password.send_keys(test_user_1[2])
+    email.send_keys(test_user_3[1])
+    password.send_keys(test_user_3[2])
 
     bt_sign_in = driver.find_element_by_xpath("//button[normalize-space()='Sign in']")
     bt_sign_in.click()
     time.sleep(3)
 
 
-# User_check
-
-
 def test_002_user_check():
-    assert test_user_1[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
+    assert test_user_3[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
 
 
 def test_003_new_blog_post():
@@ -72,7 +66,7 @@ def test_003_new_blog_post():
 
 def test_004_user_page():
     # Find and Click user page
-    user_page = driver.find_element_by_xpath("//div/ul/li/a[normalize-space()='testuser1']")
+    user_page = driver.find_element_by_xpath("//div/ul/li/a[normalize-space()='testuser3']")
     user_page.click()
     time.sleep(2)
 
