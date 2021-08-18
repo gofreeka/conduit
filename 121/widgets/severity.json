@@ -1,0 +1,281 @@
+[ {
+  "uid" : "5a4a809932f496d8",
+  "name" : "test_004_user_page",
+  "time" : {
+    "start" : 1629307781459,
+    "stop" : 1629307783512,
+    "duration" : 2053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "154a195186de00cd",
+  "name" : "test_004_pages",
+  "time" : {
+    "start" : 1629307829315,
+    "stop" : 1629307829336,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a288914b51fad5db",
+  "name" : "test_003_new_blog_post",
+  "time" : {
+    "start" : 1629307768056,
+    "stop" : 1629307781457,
+    "duration" : 13401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b811584defe56dea",
+  "name" : "test_002_user_page",
+  "time" : {
+    "start" : 1629307832577,
+    "stop" : 1629307834643,
+    "duration" : 2066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afc0bd1a6407ad04",
+  "name" : "test_001_sign_in",
+  "time" : {
+    "start" : 1629307764801,
+    "stop" : 1629307768030,
+    "duration" : 3229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2fdf9176d6d1779",
+  "name" : "test_001_sign_in",
+  "time" : {
+    "start" : 1629307795697,
+    "stop" : 1629307800955,
+    "duration" : 5258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c795ffd94e39acb",
+  "name" : "test_005_delete_article",
+  "time" : {
+    "start" : 1629307783514,
+    "stop" : 1629307795694,
+    "duration" : 12180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "900f01a56816ec8f",
+  "name" : "test_003_new_blog_post",
+  "time" : {
+    "start" : 1629307834644,
+    "stop" : 1629308070146,
+    "duration" : 235502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed44ed366d955787",
+  "name" : "test_003_user_check",
+  "time" : {
+    "start" : 1629307764776,
+    "stop" : 1629307764799,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1b6d7c3e29c2ffb",
+  "name" : "test_001_sign_in",
+  "time" : {
+    "start" : 1629308090989,
+    "stop" : 1629308099229,
+    "duration" : 8240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a431ad60713edb13",
+  "name" : "test_002_user_check",
+  "time" : {
+    "start" : 1629307827244,
+    "stop" : 1629307827267,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12970a320cf79975",
+  "name" : "test_001_login",
+  "time" : {
+    "start" : 1629307829338,
+    "stop" : 1629307832575,
+    "duration" : 3237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e54ad91e01241f",
+  "name" : "test_002_sign_in",
+  "time" : {
+    "start" : 1629307756353,
+    "stop" : 1629307764774,
+    "duration" : 8421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56dfffff03cb678b",
+  "name" : "test_001_cookie",
+  "time" : {
+    "start" : 1629307755928,
+    "stop" : 1629307756351,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a6938cf905953f2",
+  "name" : "test_002_user_check",
+  "time" : {
+    "start" : 1629307800957,
+    "stop" : 1629307800980,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5e7bdb3d4158a76",
+  "name" : "test_001_sign_in",
+  "time" : {
+    "start" : 1629308083584,
+    "stop" : 1629308088842,
+    "duration" : 5258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55060b7664612a91",
+  "name" : "test_003_log_out",
+  "time" : {
+    "start" : 1629307800981,
+    "stop" : 1629307802064,
+    "duration" : 1083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e79724523cc1445a",
+  "name" : "test_002_user_check",
+  "time" : {
+    "start" : 1629307768032,
+    "stop" : 1629307768055,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc7ca4041d368a75",
+  "name" : "test_001_registration",
+  "time" : {
+    "start" : 1629308072208,
+    "stop" : 1629308083582,
+    "duration" : 11374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee4e9b1924967b7e",
+  "name" : "test_002_user_check",
+  "time" : {
+    "start" : 1629307807326,
+    "stop" : 1629307807353,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a496d9733fba4605",
+  "name" : "test_001_sign_in",
+  "time" : {
+    "start" : 1629307802066,
+    "stop" : 1629307807324,
+    "duration" : 5258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22affb18a8392fd7",
+  "name" : "test_002_user_check",
+  "time" : {
+    "start" : 1629308088844,
+    "stop" : 1629308088867,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24579efd02d647d7",
+  "name" : "test_004_user_page_after",
+  "time" : {
+    "start" : 1629308070148,
+    "stop" : 1629308072207,
+    "duration" : 2059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fff231903bacf81",
+  "name" : "test_003_mod_data",
+  "time" : {
+    "start" : 1629307807354,
+    "stop" : 1629307824000,
+    "duration" : 16646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db306f6fbf6aeb99",
+  "name" : "test_002_user_check",
+  "time" : {
+    "start" : 1629308099231,
+    "stop" : 1629308099253,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60b125c33dcac395",
+  "name" : "test_003_user_page",
+  "time" : {
+    "start" : 1629307827268,
+    "stop" : 1629307829313,
+    "duration" : 2045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dba22905a1318357",
+  "name" : "test_003_save_data",
+  "time" : {
+    "start" : 1629308088869,
+    "stop" : 1629308090986,
+    "duration" : 2117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2802c3be268c67a4",
+  "name" : "test_001_sign_in",
+  "time" : {
+    "start" : 1629307824002,
+    "stop" : 1629307827242,
+    "duration" : 3240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
