@@ -53,6 +53,7 @@ def test_004_pages():
     print(nbr_of_page_link)
 
     for pnr in page_link:
+        global pnr_step
         article_title = driver.find_elements_by_xpath("//div/div[2]/div/div/div[2]/div/div/div/a/h1")
         article_nbr = len(article_title)
         pnr.click()
