@@ -9,8 +9,6 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 URL = 'http://localhost:1667/'
 driver.get(URL)
 
-
-# Bejelentkezes
 test_user_1 = ["testuser1", "testuser1@example.com", "Abcd123$"]
 test_user_2 = ["testuser2", "testuser2@example.com", "Abcd123$"]
 test_user_3 = ["testuser3", "testuser3@example.com", "Abcd123$"]
@@ -35,13 +33,9 @@ def test_001_sign_in():
     bt_sign_in.click()
     time.sleep(3)
 
-# User_check
-
 
 def test_002_user_check():
     assert test_user_4[0] == driver.find_element_by_xpath("//div[@id='app']/nav/div/ul/li[4]/a").text
-
-# Save existing data from UI
 
 
 def test_003_save_data():
@@ -56,7 +50,6 @@ def test_003_save_data():
     article_link = driver.find_elements_by_xpath("//div/div[2]/div/div/div[2]/div/div/div/a[@href]")
     article_nbr = len(article_title)
 
-    # Making a dictionary from two list and write into csv
     res_dict = {}
     for row in article_title:
         for link_row in article_link:
@@ -64,14 +57,13 @@ def test_003_save_data():
             article_link.remove(link_row)
             break
 
-    # print(res_dict)
-
     with open('tests/saved_data.csv', 'w', encoding='utf-8') as csv_file:
         writer = csv.writer(csv_file)
         for key, value in res_dict.items():
             writer.writerow([key, value])
 
-    # Read the number of lines in csv
     with open('tests/saved_data.csv', 'r', encoding='utf-8') as csv_file:
         reader = csv.reader(csv_file)
         lines = len(list(reader))
+
+    assert lines == article_nbr
