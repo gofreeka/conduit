@@ -61,14 +61,13 @@ def test_004_pages():
         pnr_step = int(pnr.text)
         print(article_nbr)
 
-    def check_page_numbers():
-        global nbr_of_page_link
-        global pnr_step
-        print(nbr_of_page_link)
-        print(int(pnr_step))
-        assert nbr_of_page_link == int(pnr_step)
 
-    check_page_numbers()
+def test_005_check_page_numbers():
+    global nbr_of_page_link
+    global pnr_step
+    print(nbr_of_page_link)
+    print(pnr_step)
+    assert nbr_of_page_link == int(pnr_step)
 
 
 time.sleep(4)
