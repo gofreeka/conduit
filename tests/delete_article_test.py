@@ -61,7 +61,7 @@ def test_003_new_blog_post():
     time.sleep(2)
 
     bt_publish.click()
-    time.sleep(1)
+    time.sleep(3)
 
 
 def test_004_user_page():
