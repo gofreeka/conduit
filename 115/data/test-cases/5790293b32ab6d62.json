@@ -1,0 +1,175 @@
+{
+  "uid" : "5790293b32ab6d62",
+  "name" : "test_005_delete_article",
+  "fullName" : "tests.delete_article_test#test_005_delete_article",
+  "historyId" : "d3435398ee2caa602590129c0d7adfb1",
+  "time" : {
+    "start" : 1629299084915,
+    "stop" : 1629299097098,
+    "duration" : 12183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "delete_article_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-581"
+  }, {
+    "name" : "thread",
+    "value" : "3760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.delete_article_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "2bdd06a919ac2f77",
+        "reportUrl" : "https://gofreeka.github.io/conduit/114//#testresult/2bdd06a919ac2f77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629298103599,
+          "stop" : 1629298115782,
+          "duration" : 12183
+        }
+      }, {
+        "uid" : "a3ef4d0fbccab30e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/113//#testresult/a3ef4d0fbccab30e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296838325,
+          "stop" : 1629296850497,
+          "duration" : 12172
+        }
+      }, {
+        "uid" : "84f2cf100a29c351",
+        "reportUrl" : "https://gofreeka.github.io/conduit/112//#testresult/84f2cf100a29c351",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 12 == (1 + 1)\n +  where 12 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"a4ee2f34662a0d2fd5c780a8e5f5277a\", element=\"0f28b05f-f224-...belement.WebElement (session=\"a4ee2f34662a0d2fd5c780a8e5f5277a\", element=\"c406525a-6b12-4b99-b01d-65c8656737a9\")>, ...])\n +  and   1 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"a4ee2f34662a0d2fd5c780a8e5f5277a\", element=\"2736c5de-87a5-4972-a574-58957eb94189\")>])",
+        "time" : {
+          "start" : 1629295942845,
+          "stop" : 1629295955034,
+          "duration" : 12189
+        }
+      }, {
+        "uid" : "cd02eaef7536f427",
+        "reportUrl" : "https://gofreeka.github.io/conduit/111//#testresult/cd02eaef7536f427",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294857718,
+          "stop" : 1629294869907,
+          "duration" : 12189
+        }
+      }, {
+        "uid" : "86666b1dceb904da",
+        "reportUrl" : "https://gofreeka.github.io/conduit/110//#testresult/86666b1dceb904da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293977729,
+          "stop" : 1629293989878,
+          "duration" : 12149
+        }
+      }, {
+        "uid" : "30a4ce12bcdf53a8",
+        "reportUrl" : "https://gofreeka.github.io/conduit/109//#testresult/30a4ce12bcdf53a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629292978505,
+          "stop" : 1629292990688,
+          "duration" : 12183
+        }
+      }, {
+        "uid" : "48b52b8c35aa02b4",
+        "reportUrl" : "https://gofreeka.github.io/conduit/108//#testresult/48b52b8c35aa02b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629291905101,
+          "stop" : 1629291917297,
+          "duration" : 12196
+        }
+      }, {
+        "uid" : "e43caca5b13ed151",
+        "reportUrl" : "https://gofreeka.github.io/conduit/107//#testresult/e43caca5b13ed151",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629289939787,
+          "stop" : 1629289951950,
+          "duration" : 12163
+        }
+      }, {
+        "uid" : "9d60985b6dd647d6",
+        "reportUrl" : "https://gofreeka.github.io/conduit/106//#testresult/9d60985b6dd647d6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 12 == (1 + 1)\n +  where 12 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"e833fd866c456353301253a6bb706d8a\", element=\"43ff79f9-2739-...belement.WebElement (session=\"e833fd866c456353301253a6bb706d8a\", element=\"ad1c7467-5cab-4502-951d-0ceb5eb67626\")>, ...])\n +  and   1 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"e833fd866c456353301253a6bb706d8a\", element=\"5952f8ea-c938-433c-87f2-a47457b4ea6e\")>])",
+        "time" : {
+          "start" : 1629288750158,
+          "stop" : 1629288762341,
+          "duration" : 12183
+        }
+      }, {
+        "uid" : "1e93c47d10a6e218",
+        "reportUrl" : "https://gofreeka.github.io/conduit/105//#testresult/1e93c47d10a6e218",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629287895771,
+          "stop" : 1629287907970,
+          "duration" : 12199
+        }
+      }, {
+        "uid" : "26d0b8b2e73506ae",
+        "reportUrl" : "https://gofreeka.github.io/conduit/104//#testresult/26d0b8b2e73506ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629286796705,
+          "stop" : 1629286808862,
+          "duration" : 12157
+        }
+      }, {
+        "uid" : "ca5910c50145d53c",
+        "reportUrl" : "https://gofreeka.github.io/conduit/103//#testresult/ca5910c50145d53c",
+        "status" : "broken",
+        "statusDetails" : "IndexError: list index out of range",
+        "time" : {
+          "start" : 1629285511097,
+          "stop" : 1629285512110,
+          "duration" : 1013
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5790293b32ab6d62.json",
+  "parameterValues" : [ ]
+}
