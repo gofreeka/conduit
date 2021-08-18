@@ -1,0 +1,244 @@
+{
+  "uid" : "9e90fef725a53bdc",
+  "name" : "test_002_user_check",
+  "fullName" : "tests.mod_existing_data_test#test_002_user_check",
+  "historyId" : "401e1655c4bfadb1d63e97f4cd47b650",
+  "time" : {
+    "start" : 1629307778988,
+    "stop" : 1629307779018,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "mod_existing_data_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-944"
+  }, {
+    "name" : "thread",
+    "value" : "3734-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.mod_existing_data_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 27,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "a88af72035130a23",
+        "reportUrl" : "https://gofreeka.github.io/conduit/119//#testresult/a88af72035130a23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629305760985,
+          "stop" : 1629305761009,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "bd9bdd0fef52cd75",
+        "reportUrl" : "https://gofreeka.github.io/conduit/119//#testresult/bd9bdd0fef52cd75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629305132852,
+          "stop" : 1629305132879,
+          "duration" : 27
+        }
+      }, {
+        "uid" : "fa9582aa9ca9b40e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/119//#testresult/fa9582aa9ca9b40e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629304266285,
+          "stop" : 1629304266314,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "524486ddc2642c29",
+        "reportUrl" : "https://gofreeka.github.io/conduit/118//#testresult/524486ddc2642c29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629303530865,
+          "stop" : 1629303530888,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "55c1e604730172d5",
+        "reportUrl" : "https://gofreeka.github.io/conduit/117//#testresult/55c1e604730172d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629301288984,
+          "stop" : 1629301289012,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "98c33b63087c275b",
+        "reportUrl" : "https://gofreeka.github.io/conduit/116//#testresult/98c33b63087c275b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629300102905,
+          "stop" : 1629300102938,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "c471d25c35166b6a",
+        "reportUrl" : "https://gofreeka.github.io/conduit/115//#testresult/c471d25c35166b6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629299108785,
+          "stop" : 1629299108812,
+          "duration" : 27
+        }
+      }, {
+        "uid" : "d649d3d826273ba8",
+        "reportUrl" : "https://gofreeka.github.io/conduit/114//#testresult/d649d3d826273ba8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629298127402,
+          "stop" : 1629298127426,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "837cef206ddb4a2a",
+        "reportUrl" : "https://gofreeka.github.io/conduit/113//#testresult/837cef206ddb4a2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296855791,
+          "stop" : 1629296855822,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "4b7bb82438e3c484",
+        "reportUrl" : "https://gofreeka.github.io/conduit/112//#testresult/4b7bb82438e3c484",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629295960364,
+          "stop" : 1629295960388,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "60247e04e1da7e94",
+        "reportUrl" : "https://gofreeka.github.io/conduit/111//#testresult/60247e04e1da7e94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629294875207,
+          "stop" : 1629294875232,
+          "duration" : 25
+        }
+      }, {
+        "uid" : "3914b8f94331abd6",
+        "reportUrl" : "https://gofreeka.github.io/conduit/110//#testresult/3914b8f94331abd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293995107,
+          "stop" : 1629293995130,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "f17954514b820e9e",
+        "reportUrl" : "https://gofreeka.github.io/conduit/109//#testresult/f17954514b820e9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629292995940,
+          "stop" : 1629292995962,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "ccdefe9ece1601e9",
+        "reportUrl" : "https://gofreeka.github.io/conduit/108//#testresult/ccdefe9ece1601e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629291922602,
+          "stop" : 1629291922630,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "e2992b77d9e873c0",
+        "reportUrl" : "https://gofreeka.github.io/conduit/107//#testresult/e2992b77d9e873c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629289957206,
+          "stop" : 1629289957227,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "a13b3a83631e17de",
+        "reportUrl" : "https://gofreeka.github.io/conduit/106//#testresult/a13b3a83631e17de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629288767668,
+          "stop" : 1629288767696,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "9dc17565e395204c",
+        "reportUrl" : "https://gofreeka.github.io/conduit/105//#testresult/9dc17565e395204c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629287913284,
+          "stop" : 1629287913309,
+          "duration" : 25
+        }
+      }, {
+        "uid" : "655c0b3233b5e5a2",
+        "reportUrl" : "https://gofreeka.github.io/conduit/104//#testresult/655c0b3233b5e5a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629286814111,
+          "stop" : 1629286814134,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "9c851450c7538276",
+        "reportUrl" : "https://gofreeka.github.io/conduit/103//#testresult/9c851450c7538276",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629285517365,
+          "stop" : 1629285517389,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "9709e7ed44e49a57",
+        "reportUrl" : "https://gofreeka.github.io/conduit/102//#testresult/9709e7ed44e49a57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629251744583,
+          "stop" : 1629251744610,
+          "duration" : 27
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9e90fef725a53bdc.json",
+  "parameterValues" : [ ]
+}
