@@ -66,8 +66,8 @@ def test_005_check_page_numbers():
     global nbr_of_page_link
     global pnr_step
     print(nbr_of_page_link)
-    print(pnr_step)
-    assert nbr_of_page_link == pnr_step
+    print(int(pnr_step))
+    assert nbr_of_page_link == int(pnr_step)
 
 
 time.sleep(4)
