@@ -1,0 +1,53 @@
+{
+  "uid" : "58f3a7d3123089b7",
+  "name" : "test_002_sign_in",
+  "fullName" : "tests.cookie_test#test_002_sign_in",
+  "historyId" : "6eca7b70717a1cc9155886bee9a739a9",
+  "time" : {
+    "start" : 1629289912737,
+    "stop" : 1629289920995,
+    "duration" : 8258
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "cookie_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-93"
+  }, {
+    "name" : "thread",
+    "value" : "3746-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.cookie_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58f3a7d3123089b7.json",
+  "parameterValues" : [ ]
+}
